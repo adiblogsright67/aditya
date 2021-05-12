@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:normal ;
+    animation: bgcolor infinite 20s;
+    
+}
+@keyframes bgcolor{
+    0%
+    {
+        background: #273c75 ;
+    }
+    20%
+    {
+        background:#6F1E51 ;
+    }
+    40%
+    {
+        background:#487eb0 ;
+    }
+    60%
+    {
+        background:#1B1464;
+    }
+    80%
+    {
+        background:#2f3542 ;
+        
+    }
+    100%
+    {
+        background:#6F1E51;
+        
+    }
+    
+}
+
+
+
+.dropdwn{
+    margin:0 auto;
+    
+}
+nav{
+    height: 60px;
+    background: black;
+    box-shadow: 0 10px 15px cyan;    
+}
+.logo{
+    padding: 5px 0 0 80px;
+    width: 300px;
+    height: 50px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float:right;
+    margin-right: 30px;
+
+}
+nav ul li{
+    background: black;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+
+}
+nav ul li a:hover{
+    background: white;
+
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+
+
+
+
+
+    .cover-bg{
+    
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.mt-20{
+    margin-top: 20px;
+    font-family: BankGothic Lt BT;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.pb-35{
+    padding-bottom: 35px;
+
+}
+
+.mt-35{
+    margin-top: 35px;
+}
+
+.section_padding{
+    padding: 100px 0;
+}
+
+
+h1,h2,h3,h4{
+    font-family: normal;
+    color: white;
+    font-weight: 700;
+}
+
+p{
+    line-height: 1.6;
+    color:white;
+    text-align: center;
+
+}
+
+span,a{
+    display: inline-block;
+    
+    
+}
+/***section title css ***/
+
+.section_tite{
+    position: relative;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.section_tite p{
+    background-color: white;
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align:center;
+    text-transform: uppercase;
+    padding: 0 12px;
+    letter-spacing: 1px;
+}
+
+.section_title h3{
+    position: relative;
+    font-size: 36px;
+    text-transform: capitalize;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    padding-bottom: 13px;
+    color: orange;
+}
+
+.section_title h3:after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 2px;
+    bottom: -30px;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%, 0);
+
+
+}
+
+
+.banner{
+   
+    background-attachment:fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner .caption h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.banner .caption h2{
+    color: white;
+    font-size: 70px;
+    letter-spacing: -1px;
+}
+
+.banner .caption p{
+    font-size: 17px;
+    color: white;
+    line-height: 32px;
+    opacity: 0.7;
+}
+
+.banner .caption .social_icon a{
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-size: 16px;
+    transition: 0.5s all;
+}
+
+.banner .caption .social_icon a:hover{
+    color: #1957f3;
+    
+}
+
+/***about class section css****/
+.about .part_text h4{
+    font-size: 24px;
+    color: white;
+}
+
+.about .part_text p{
+    border-bottom: 1px solid white;
+    color: white;
+
+}
+
+
